@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [calculatorTests]">
+  <test name="allTests(failed)">
+    <classes>
+      <class name="calculatorTests.ShortTerm">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="runTestCase" invocation-numbers="6 7 10 11 12 13 20 21 24 25 26 27"/>
+          <include name="beforeClass"/>
+          <include name="cleanUp"/>
+          <include name="initPage"/>
+        </methods>
+      </class> <!-- calculatorTests.ShortTerm -->
+    </classes>
+  </test> <!-- allTests(failed) -->
+</suite> <!-- Failed suite [calculatorTests] -->
